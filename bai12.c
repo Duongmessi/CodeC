@@ -70,6 +70,7 @@ int main()
 
     //Đưa ra màn hình hộ trả tiền điện ít nhất
     min = ds[0].soTienDienPhaiTra;
+    viTri = 0;
     for ( i = 0; i < count; i++)
     {
         if (min > ds[i].soTienDienPhaiTra)
